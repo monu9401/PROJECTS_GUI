@@ -233,6 +233,9 @@ class miniCalculator implements ActionListener
         }
         else if(e.getSource()==buttonAdd)
         {
+            if(x.length()==0)
+            {}
+            else
             ch='+';
             label2.setText(x+ch);
             label2.setVisible(true);
