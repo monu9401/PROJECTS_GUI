@@ -30,10 +30,8 @@ class miniCalculator implements ActionListener
     JButton backspace = new JButton();
     JButton percentage = new JButton();
     Border border = BorderFactory.createLineBorder(Color.cyan,5);
-    String x="",y="";
-    String res="";
+    String x="",y="",res="";
     char ch='\0';
-    int count=0;
     public void actionPerformed(ActionEvent e)
     {
         if(e.getSource()==button0)
